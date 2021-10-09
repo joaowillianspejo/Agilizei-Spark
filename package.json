@@ -1,0 +1,14 @@
+{
+  "name": "agilizei-spark",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "cypress run",
+    "test:mobile": "cypress run --config viewportWidth=414,viewportHeight=736",
+    "cy:open": "cypress open"
+  },
+  "devDependencies": {
+    "cypress": "^8.5.0"
+  }
+}
